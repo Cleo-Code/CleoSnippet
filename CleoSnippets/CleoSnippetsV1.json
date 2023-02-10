@@ -1,0 +1,145 @@
+
+{
+
+    "Function": {
+      "prefix": "clf",
+      "body": [
+        "function nameOfFunction( params ) {}"
+      ],
+      "description": "Function"
+    },
+    
+    "Arrow Function": {
+      "prefix": "claf",
+      "body": [
+        "const nameOfFunction = ( params ) => {}"
+      ],
+      "description": "Arrow Function"
+    },
+
+    "Console Log": {
+      "prefix": "clog",
+      "body": [
+        "console.log()"
+      ],
+      "description": "Console Log"
+    },
+
+    "Console Error": {
+      "prefix": "clerr",
+      "body": [
+        "console.error()"
+      ],
+      "description": "Console Error"
+    }, 
+
+    "Console Warn": {
+      "prefix": "clwarn",
+      "body": [
+        "console.warn()"
+      ],
+      "description": "Console Warn"
+    },
+
+    "Fetch": {
+      "prefix": "clft",
+      "body": [
+        "fetch('')",
+        "  .then((response) => response.json())",
+        "  .then((data) => console.log(data));"
+      ],
+      "description": "Fetch"
+    },
+    
+    "Ternary": {
+      "prefix": "cltern",
+      "body": [
+        "condition ? true : false"
+      ],
+      "description": "Ternary"
+    },
+
+    "ife": {
+      "prefix": "clife",
+      "body": [
+        "if (true) {",
+        "    ",
+        "} else {",
+        "    ",
+        "}"
+      ],
+      "description": "ife"
+    },
+
+    "else": {
+      "prefix": "clelse",
+      "body": [
+        "else {",
+        "    ",
+        "}"
+      ],
+      "description": "else"
+    },
+
+    "elseif": {
+      "prefix": "clelseif",
+      "body": [
+        "else if (true) {",
+        "    ",
+        "}"
+      ],
+      "description": "elseif"
+    },
+
+    "for": {
+      "prefix": "clfor",
+      "body": [
+        "for (var i = 0; i < array.length; i++) {",
+        "    array[i]",
+        "}"
+      ],
+      "description": "for"
+    },
+
+    "timeout": {
+      "prefix": "cltimeout",
+      "body": [
+        "setTimeout(function () {",
+        "    ",
+        "}, 10);"
+      ],
+      "description": "timeout"
+    },
+
+    "switch": {
+      "prefix": "clswt",
+      "body": [
+        "switch (expression) {",
+        "    case expression:",
+        "        ",
+        "        break;",
+        "    default:",
+        "        ",
+        "}"
+      ],
+      "description": "switch"
+    },
+
+    "map": {
+      "prefix": "clmap",
+      "body": [
+        "Arr.map()"
+      ],
+      "description": "map"
+    },
+
+    "db": {
+      "prefix": "cldb",
+      "body": [
+        "/**/"
+      ],
+      "description": "db"
+    }
+
+}
+
