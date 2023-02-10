@@ -44,7 +44,7 @@ ___
 
 + clwarn -- Normal ```console.warn() ```
 
-+ clfetch -- Normal ```fetch() ``` 
++ clft -- Normal ```fetch() ``` 
 
 + cltern -- Normal ```condition ? true : false ``` Ternary operator
 
